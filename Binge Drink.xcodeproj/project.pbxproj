@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C0C4832208C1048001499CD /* UICircularProgressRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C4831208C1048001499CD /* UICircularProgressRingView.swift */; };
+		5C0C4836208C109B001499CD /* UICircularProgressRingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C4834208C109A001499CD /* UICircularProgressRingDelegate.swift */; };
+		5C0C4837208C109B001499CD /* UICircularProgressRingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0C4835208C109A001499CD /* UICircularProgressRingLayer.swift */; };
+		5C1355B82064B541003444AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1355B72064B541003444AB /* AppDelegate.swift */; };
+		5C1355BA2064B541003444AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1355B92064B541003444AB /* ViewController.swift */; };
+		5C1355BD2064B541003444AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1355BB2064B541003444AB /* Main.storyboard */; };
+		5C1355BF2064B541003444AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1355BE2064B541003444AB /* Assets.xcassets */; };
+		5C1355C22064B541003444AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1355C02064B541003444AB /* LaunchScreen.storyboard */; };
+		5C1355CD2064B542003444AB /* Binge_DrinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1355CC2064B542003444AB /* Binge_DrinkTests.swift */; };
+		5C1355D82064B542003444AB /* Binge_DrinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1355D72064B542003444AB /* Binge_DrinkUITests.swift */; };
+		5C20473220847A050011781D /* warningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C20473120847A030011781D /* warningViewController.swift */; };
+		5C478B1B20720A8900D5A5D2 /* drinksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C478B1A20720A8900D5A5D2 /* drinksTableViewCell.swift */; };
+		5C478B1D207329C200D5A5D2 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C478B1C207329C200D5A5D2 /* settingsViewController.swift */; };
+		5C8E26A420719C9D00254180 /* addDrinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E26A320719C9D00254180 /* addDrinksViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C1355C92064B542003444AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1355AC2064B541003444AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1355B32064B541003444AB;
+			remoteInfo = "Binge Drink";
+		};
+		5C1355D42064B542003444AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1355AC2064B541003444AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1355B32064B541003444AB;
+			remoteInfo = "Binge Drink";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C0C4831208C1048001499CD /* UICircularProgressRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingView.swift; path = "/Users/kendalllewis/Desktop/Binge Drink/Binge Drink/UICircularProgressRingView.swift"; sourceTree = "<absolute>"; };
+		5C0C4833208C109A001499CD /* UICircularProgressRing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UICircularProgressRing.h; path = "/Users/kendalllewis/Desktop/Binge Drink/Binge Drink/UICircularProgressRing.h"; sourceTree = "<absolute>"; };
+		5C0C4834208C109A001499CD /* UICircularProgressRingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingDelegate.swift; path = "/Users/kendalllewis/Desktop/Binge Drink/Binge Drink/UICircularProgressRingDelegate.swift"; sourceTree = "<absolute>"; };
+		5C0C4835208C109A001499CD /* UICircularProgressRingLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UICircularProgressRingLayer.swift; path = "/Users/kendalllewis/Desktop/Binge Drink/Binge Drink/UICircularProgressRingLayer.swift"; sourceTree = "<absolute>"; };
+		5C1355B42064B541003444AB /* Binge Drink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Binge Drink.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1355B72064B541003444AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C1355B92064B541003444AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C1355BC2064B541003444AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C1355BE2064B541003444AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C1355C12064B541003444AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C1355C32064B541003444AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1355C82064B542003444AB /* Binge DrinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Binge DrinkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1355CC2064B542003444AB /* Binge_DrinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binge_DrinkTests.swift; sourceTree = "<group>"; };
+		5C1355CE2064B542003444AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1355D32064B542003444AB /* Binge DrinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Binge DrinkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1355D72064B542003444AB /* Binge_DrinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binge_DrinkUITests.swift; sourceTree = "<group>"; };
+		5C1355D92064B543003444AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C20473120847A030011781D /* warningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = warningViewController.swift; sourceTree = "<group>"; };
+		5C478B1A20720A8900D5A5D2 /* drinksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinksTableViewCell.swift; sourceTree = "<group>"; };
+		5C478B1C207329C200D5A5D2 /* settingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = settingsViewController.swift; path = "/Users/kendalllewis/Desktop/Binge Drink/Binge Drink/settingsViewController.swift"; sourceTree = "<absolute>"; };
+		5C8E26A320719C9D00254180 /* addDrinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = addDrinksViewController.swift; path = "/Users/kendalllewis/Desktop/Binge Drink/Binge Drink/addDrinksViewController.swift"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C1355B12064B541003444AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1355C52064B542003444AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1355D02064B542003444AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C1355AB2064B540003444AB = {
+			isa = PBXGroup;
+			children = (
+				5C1355B62064B541003444AB /* Binge Drink */,
+				5C1355CB2064B542003444AB /* Binge DrinkTests */,
+				5C1355D62064B542003444AB /* Binge DrinkUITests */,
+				5C1355B52064B541003444AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C1355B52064B541003444AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C1355B42064B541003444AB /* Binge Drink.app */,
+				5C1355C82064B542003444AB /* Binge DrinkTests.xctest */,
+				5C1355D32064B542003444AB /* Binge DrinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C1355B62064B541003444AB /* Binge Drink */ = {
+			isa = PBXGroup;
+			children = (
+				5C1355B72064B541003444AB /* AppDelegate.swift */,
+				5C478B1A20720A8900D5A5D2 /* drinksTableViewCell.swift */,
+				5C1355B92064B541003444AB /* ViewController.swift */,
+				5C0C4831208C1048001499CD /* UICircularProgressRingView.swift */,
+				5C0C4833208C109A001499CD /* UICircularProgressRing.h */,
+				5C0C4834208C109A001499CD /* UICircularProgressRingDelegate.swift */,
+				5C0C4835208C109A001499CD /* UICircularProgressRingLayer.swift */,
+				5C20473120847A030011781D /* warningViewController.swift */,
+				5C1355BB2064B541003444AB /* Main.storyboard */,
+				5C478B1C207329C200D5A5D2 /* settingsViewController.swift */,
+				5C8E26A320719C9D00254180 /* addDrinksViewController.swift */,
+				5C1355BE2064B541003444AB /* Assets.xcassets */,
+				5C1355C02064B541003444AB /* LaunchScreen.storyboard */,
+				5C1355C32064B541003444AB /* Info.plist */,
+			);
+			path = "Binge Drink";
+			sourceTree = "<group>";
+		};
+		5C1355CB2064B542003444AB /* Binge DrinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C1355CC2064B542003444AB /* Binge_DrinkTests.swift */,
+				5C1355CE2064B542003444AB /* Info.plist */,
+			);
+			path = "Binge DrinkTests";
+			sourceTree = "<group>";
+		};
+		5C1355D62064B542003444AB /* Binge DrinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C1355D72064B542003444AB /* Binge_DrinkUITests.swift */,
+				5C1355D92064B543003444AB /* Info.plist */,
+			);
+			path = "Binge DrinkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C1355B32064B541003444AB /* Binge Drink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1355DC2064B543003444AB /* Build configuration list for PBXNativeTarget "Binge Drink" */;
+			buildPhases = (
+				5C1355B02064B541003444AB /* Sources */,
+				5C1355B12064B541003444AB /* Frameworks */,
+				5C1355B22064B541003444AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Binge Drink";
+			productName = "Binge Drink";
+			productReference = 5C1355B42064B541003444AB /* Binge Drink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C1355C72064B542003444AB /* Binge DrinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1355DF2064B543003444AB /* Build configuration list for PBXNativeTarget "Binge DrinkTests" */;
+			buildPhases = (
+				5C1355C42064B542003444AB /* Sources */,
+				5C1355C52064B542003444AB /* Frameworks */,
+				5C1355C62064B542003444AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C1355CA2064B542003444AB /* PBXTargetDependency */,
+			);
+			name = "Binge DrinkTests";
+			productName = "Binge DrinkTests";
+			productReference = 5C1355C82064B542003444AB /* Binge DrinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C1355D22064B542003444AB /* Binge DrinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1355E22064B543003444AB /* Build configuration list for PBXNativeTarget "Binge DrinkUITests" */;
+			buildPhases = (
+				5C1355CF2064B542003444AB /* Sources */,
+				5C1355D02064B542003444AB /* Frameworks */,
+				5C1355D12064B542003444AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C1355D52064B542003444AB /* PBXTargetDependency */,
+			);
+			name = "Binge DrinkUITests";
+			productName = "Binge DrinkUITests";
+			productReference = 5C1355D32064B542003444AB /* Binge DrinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C1355AC2064B541003444AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kendall Lewis";
+				TargetAttributes = {
+					5C1355B32064B541003444AB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5C1355C72064B542003444AB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C1355B32064B541003444AB;
+					};
+					5C1355D22064B542003444AB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C1355B32064B541003444AB;
+					};
+				};
+			};
+			buildConfigurationList = 5C1355AF2064B541003444AB /* Build configuration list for PBXProject "Binge Drink" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C1355AB2064B540003444AB;
+			productRefGroup = 5C1355B52064B541003444AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C1355B32064B541003444AB /* Binge Drink */,
+				5C1355C72064B542003444AB /* Binge DrinkTests */,
+				5C1355D22064B542003444AB /* Binge DrinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C1355B22064B541003444AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1355C22064B541003444AB /* LaunchScreen.storyboard in Resources */,
+				5C1355BF2064B541003444AB /* Assets.xcassets in Resources */,
+				5C1355BD2064B541003444AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1355C62064B542003444AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1355D12064B542003444AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C1355B02064B541003444AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C478B1D207329C200D5A5D2 /* settingsViewController.swift in Sources */,
+				5C0C4836208C109B001499CD /* UICircularProgressRingDelegate.swift in Sources */,
+				5C1355BA2064B541003444AB /* ViewController.swift in Sources */,
+				5C1355B82064B541003444AB /* AppDelegate.swift in Sources */,
+				5C0C4832208C1048001499CD /* UICircularProgressRingView.swift in Sources */,
+				5C478B1B20720A8900D5A5D2 /* drinksTableViewCell.swift in Sources */,
+				5C8E26A420719C9D00254180 /* addDrinksViewController.swift in Sources */,
+				5C20473220847A050011781D /* warningViewController.swift in Sources */,
+				5C0C4837208C109B001499CD /* UICircularProgressRingLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1355C42064B542003444AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1355CD2064B542003444AB /* Binge_DrinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1355CF2064B542003444AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1355D82064B542003444AB /* Binge_DrinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C1355CA2064B542003444AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1355B32064B541003444AB /* Binge Drink */;
+			targetProxy = 5C1355C92064B542003444AB /* PBXContainerItemProxy */;
+		};
+		5C1355D52064B542003444AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1355B32064B541003444AB /* Binge Drink */;
+			targetProxy = 5C1355D42064B542003444AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C1355BB2064B541003444AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1355BC2064B541003444AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C1355C02064B541003444AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1355C12064B541003444AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C1355DA2064B543003444AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C1355DB2064B543003444AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C1355DD2064B543003444AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPLU8J5RDW;
+				INFOPLIST_FILE = "Binge Drink/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Applied-Innovant.Binge-Drink";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C1355DE2064B543003444AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPLU8J5RDW;
+				INFOPLIST_FILE = "Binge Drink/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Applied-Innovant.Binge-Drink";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5C1355E02064B543003444AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPLU8J5RDW;
+				INFOPLIST_FILE = "Binge DrinkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Applied-Innovant.Binge-DrinkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Binge Drink.app/Binge Drink";
+			};
+			name = Debug;
+		};
+		5C1355E12064B543003444AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPLU8J5RDW;
+				INFOPLIST_FILE = "Binge DrinkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Applied-Innovant.Binge-DrinkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Binge Drink.app/Binge Drink";
+			};
+			name = Release;
+		};
+		5C1355E32064B543003444AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPLU8J5RDW;
+				INFOPLIST_FILE = "Binge DrinkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Applied-Innovant.Binge-DrinkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Binge Drink";
+			};
+			name = Debug;
+		};
+		5C1355E42064B543003444AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PPLU8J5RDW;
+				INFOPLIST_FILE = "Binge DrinkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Applied-Innovant.Binge-DrinkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Binge Drink";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C1355AF2064B541003444AB /* Build configuration list for PBXProject "Binge Drink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1355DA2064B543003444AB /* Debug */,
+				5C1355DB2064B543003444AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1355DC2064B543003444AB /* Build configuration list for PBXNativeTarget "Binge Drink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1355DD2064B543003444AB /* Debug */,
+				5C1355DE2064B543003444AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1355DF2064B543003444AB /* Build configuration list for PBXNativeTarget "Binge DrinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1355E02064B543003444AB /* Debug */,
+				5C1355E12064B543003444AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1355E22064B543003444AB /* Build configuration list for PBXNativeTarget "Binge DrinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1355E32064B543003444AB /* Debug */,
+				5C1355E42064B543003444AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C1355AC2064B541003444AB /* Project object */;
+}
